@@ -101,9 +101,10 @@ const Profile = () => {
 
 const styles = StyleSheet.create({
     container: {
+        marginTop: 20,
         flex: 1,
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'flex-start',
     },
     profilePicture: {
         width: 100,

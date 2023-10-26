@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Text, View, Button, TouchableOpacity , Image } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
+import { NavigationContainer } from './node_modules/@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from '@react-navigation/stack'; // import createStackNavigator
 import Home from './screens/Home';

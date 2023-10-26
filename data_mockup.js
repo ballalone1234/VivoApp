@@ -74,24 +74,8 @@ const data = [{
 {
     id: 4,
     img: require('./assets/i5.png'),
-    imgz: require('./assets/i5r.png'),
-    title: 'iQOO Wireless Active',
-    price: '$1199.00',
-    detail: ['ชาร์จไว 44W',
-        'Type-C to USB Type-A',
-        'จอ 6.78 นิ้ว 120Hz Refresh Rate',
-        'ความยาว 0.97 เมตร'],
-    space: ['Type-C'],
-    color: [{
-        img: require('./assets/i5-1.png'),
-        color: 'Cable White',
-    }]
-},
-{
-    id: 5,
-    img: require('./assets/i6.png'),
     imgz: require('./assets/i6r.png'),
-    title: '4A Type-C Cable White',
+    title: 'iQOO Wireless Active',
     price: '$299.00',
     detail: ['11.2 mm. Driver Dynamic  ',
         'ความหน่วงต่ำเพียง 80ms',
@@ -101,6 +85,22 @@ const data = [{
     color: [{
         img: require('./assets/i6-1.png'),
         color: 'Yellow',
+    }]
+   
+},
+{
+    id: 5,
+    img: require('./assets/i6.png'),
+    imgz: require('./assets/i5r.png'),
+    title: '4A Type-C Cable White',
+    price: '$1199.00',
+    detail: ['ชาร์จไว 44W',
+        'Type-C to USB Type-A',
+        'ความยาว 0.97 เมตร'],
+    space: ['Type-C'],
+    color: [{
+        img: require('./assets/i5-1.png'),
+        color: 'Cable White',
     }]
 }];
 
